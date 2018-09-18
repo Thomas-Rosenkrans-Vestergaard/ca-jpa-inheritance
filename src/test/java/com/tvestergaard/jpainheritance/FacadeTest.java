@@ -97,6 +97,6 @@ public class FacadeTest
     public void all()
     {
         List<Book> bookList = facade.all();
-        assertTrue(bookList.size() >= 8)n;
+        assertTrue(bookList.size() >= 8);
     }
 }
